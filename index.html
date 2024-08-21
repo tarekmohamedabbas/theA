@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>صفحة مع صورة وأيقونة يوتيوب</title>
     <style>
+        body
+        {
+            background: #444;
+        }
         .container {
             text-align: center;
             margin-top: 50px;
+           
         }
 
         .icon {
@@ -16,15 +21,19 @@
             margin-top: 10px;
             cursor: pointer;
         }
+        .im{
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <!-- الصورة -->
-        <img src="image.jpeg" alt="صورة" width="300">
+        <img src="image.jpeg" alt="صورة" width="300" class="im">
 
         <!-- أيقونة يوتيوب -->
-        <a href="https://www.youtube.com/watch?v=your-video-id" target="_blank">
+        <a href="https://www.youtube.com/live/I6WuVSkrAHM?si=SlPfd-ct0ZwD5f74" target="_blank">
             <img src="you.png" alt="أيقونة يوتيوب" class="icon">
         </a>
     </div>
